@@ -149,7 +149,7 @@ PostgreSQL
 
 Clone the repo and install the dependencies.
 
-git clone https://github.com/rimbergaoui/Project.git
+git clone https://github.com/rimbergaoui/ProjectMicro.git
 
 `cd Project`
 

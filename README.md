@@ -9,6 +9,8 @@ This project is a simple skeleton code for microservice architecture pattern usi
 
 * **gRPC** : Used for efficient communication between microservices.
 
+* **Kafka** : For message passing between the API Gateway and services (If the request was send from client with GraphQL).
+
 
 * **GraphQL** : Implemented for flexible and efficient querying of data.
 
@@ -145,6 +147,10 @@ npm (version 6 or higher)
 
 PostgreSQL
 
+Kafka 
+
+Zookper
+
 # Common setup
 
 Clone the repo and install the dependencies.
@@ -172,3 +178,11 @@ To start the Order server, run the following
 `cd orderMicroservice`
 
 `node orderMicroservice.js`
+
+To start Zookeeper, run the following
+
+`bin/zookeeper-server-start.sh config/zookeeper.properties`
+
+To start Kafka, run the following
+
+`bin/kafka-server-start.sh config/server.properties`

@@ -2,7 +2,7 @@
 
 This project is a simple skeleton code for microservice architecture pattern using Node.js , PostgreSQL , Prisma , Rest , GraphQL.
 
-![image!](archi.png)
+![image!](archi2.png)
 
 
 # Technologies
